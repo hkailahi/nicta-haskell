@@ -35,3 +35,12 @@ instance P.Monad ExactlyOne where
   return =
     ExactlyOne
 
+{-
+λ: let a = ExactlyOne 5
+λ: runExactlyOne a
+5
+λ: mapExactlyOne (+5) a
+ExactlyOne 10
+λ: bindExactlyOne (ExactlyOne) a
+ExactlyOne 5
+-}
