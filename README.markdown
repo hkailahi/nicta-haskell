@@ -14,7 +14,7 @@ looking for the *answers* (not the exercises), please go to https://github.com/t
 #### Special note 2
 
 As of February 2017, this repository is taking the place of the repository hosted at
-https://github.com/NICTA/course which is deprecated. 
+https://github.com/NICTA/course which is deprecated.
 
 Data61 replaces what was NICTA since July 2016. The new repository is located at
 https://github.com/data61/fp-course.
@@ -225,18 +225,18 @@ GHCI. Examples begin with `>>>` while properties begin with `prop>`.
 It is recommended to perform some exercises before others. The first step is to
 inspect the introduction modules.
 
-* `Course.ExactlyOne`
-* `Course.Validation`
+[x] `Course.ExactlyOne`
+[x] `Course.Validation`
 
 They contain examples of data structures and Haskell syntax. They do not contain
 exercises and exist to provide a cursory examination of Haskell syntax. The next
-step is to complete the exercises in `Course.Optional`.
+step is to complete the exercises in `Course.Optional` [x].
 
 After this, the following progression of modules is recommended:
 
-* `Course.List`
-* `Course.Functor`
-* `Course.Applicative`
+[x] `Course.List`
+[x] `Course.Functor`
+[x] `Course.Applicative`
 * `Course.Monad`
 * `Course.FileIO`
 * `Course.State`
